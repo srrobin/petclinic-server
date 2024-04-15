@@ -129,6 +129,60 @@
       ]
     }
 
+  ],
+  "veterinarians" : [
+    {
+      "name": "Dr. Smith",
+      "specialties": "Dermatology, Surgery"
+    },
+    {
+      "name": "Dr. Johnson",
+      "specialties": "Internal Medicine, Oncology"
+    },
+    {
+      "name": "Dr. Williams",
+      "specialties": "Neurology"
+    },
+    {
+      "name": "Dr. Brown",
+      "specialties": "Radiology"
+    },
+    {
+      "name": "Dr. Jones",
+      "specialties": " Ophthalmology"
+    },
+    {
+      "name": "Dr. Garcia",
+      "specialties": "Anesthesiology"
+    },
+    {
+      "name": "Dr. Martinez",
+      "specialties": " Exotics"
+    },
+    {
+      "name": "Dr. Anderson",
+      "specialties": "Avian"
+    },
+    {
+      "name": "Dr. Lee",
+      "specialties": "Endocrinology"
+    },
+    {
+      "name": "Dr. Nguyen",
+      "specialties": " Zoo Medicine"
+    }
+  ],
+  "species" : [
+    "Dog",
+    "Cat",
+    "Bird",
+    "Rabbit",
+    "Hamster",
+    "Guinea Pig",
+    "Fish",
+    "Snake",
+    "Turtle",
+    "Lizard"
   ]
 }
 
