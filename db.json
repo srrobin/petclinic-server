@@ -35,7 +35,7 @@
           "birthday": "2013-8-12",
           "visits": [
             {
-              "id": 1003,
+              "id": 1002,
               "date": "2023-12-20",
               "reason": "Flea treatment"
             }
@@ -96,31 +96,31 @@
 
       "pets": [
         {
-          "id": 104,
+          "id": 105,
           "name": "Max",
           "species": "Dog",
           "birthday": "2019-8-12",
           "visits": [
             {
-              "id": 1004,
+              "id": 1003,
               "date": "2024-04-10",
               "reason": "Annual checkup"
             },
             {
-              "id": 1005,
+              "id": 1004,
               "date": "2024-02-15",
               "reason": "Vaccination"
             }
           ]
         },
         {
-          "id": 104,
+          "id": 106,
           "name": "Whiskers",
           "species": "Cat",
           "birthday": "2011-8-12",
           "visits": [
             {
-              "id": 1004,
+              "id": 1005,
               "date": "2023-12-20",
               "reason": "Flea treatment"
             }
