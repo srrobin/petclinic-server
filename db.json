@@ -1,135 +1,139 @@
 {
-  "petclinic": [
+  
+  "owners": [
     {
       "id": "1",
-      "name": "John Doe",
+      "name": "John Doe 123",
       "email": "jone@gmail.com",
       "phone": "01827578768",
       "address": "12/2, Mymensing",
       "city": "Mymensing",
-      "status": 1,
-
-      "pets": [
-        {
-          "id": "101",
-          "name": "Max",
-          "species": "Dog",
-          "birthday": "2019-8-12",
-          "visits": [
-            {
-              "id": "1001",
-              "date": "2024-04-10",
-              "reason": "Annual checkup"
-            },
-            {
-              "id": "1002",
-              "date": "2024-02-15",
-              "reason": "Vaccination"
-            }
-          ]
-        },
-        {
-          "id": "102",
-          "name": "Whiskers",
-          "species": "Cat",
-          "birthday": "2013-8-12",
-          "visits": [
-            {
-              "id": "1002",
-              "date": "2023-12-20",
-              "reason": "Flea treatment"
-            }
-          ]
-        }
-      ]
+      "status": 1
     },
     {
-      "id":"2",
-      "name": "Sayam Rahman",
+      "name": "Sayam Rahman 123",
       "email": "sayam@gmail.com",
       "phone": "01711337897",
       "address": "73/2,dhaka",
       "city": "dhaka",
       "status": 2,
-
-      "pets": [
-        {
-          "id": "103",
-          "name": "Max",
-          "species": "Dog",
-          "birthday": "2019-8-12",
-          "visits": [
-            {
-              "id": "1003",
-              "date": "2024-04-10",
-              "reason": "Annual checkup"
-            },
-            {
-              "id":" 1004",
-              "date": "2024-02-15",
-              "reason": "Vaccination"
-            }
-          ]
-        },
-        {
-          "id": "104",
-          "name": "Whiskers",
-          "species": "Cat",
-          "visits": [
-            {
-              "id":"1005",
-              "date": "2023-12-20",
-              "reason": "Flea treatment"
-            }
-          ]
-        }
-      ]
+      "id": "2"
     },
     {
-      "id":"3",
+      "id": "3",
       "name": "Razon Ahmed",
       "email": "razon@gmail.com",
       "phone": "01799337897",
       "address": "71/2,dhaka",
       "city": "dhaka",
-      "status":3,
-
-      "pets": [
-        {
-          "id":"105",
-          "name": "Max",
-          "species": "Dog",
-          "birthday": "2019-8-12",
-          "visits": [
-            {
-              "id": "1003",
-              "date": "2024-04-10",
-              "reason": "Annual checkup"
-            },
-            {
-              "id": "1004",
-              "date": "2024-02-15",
-              "reason": "Vaccination"
-            }
-          ]
-        },
-        {
-          "id": "106",
-          "name": "Whiskers",
-          "species": "Cat",
-          "birthday": "2011-8-12",
-          "visits": [
-            {
-              "id": "1005",
-              "date": "2023-12-20",
-              "reason": "Flea treatment"
-            }
-          ]
-        }
-      ]
-    }
-
-  ],
+      "status": 3
+    },
+    {
+      "name": "MD Shihab 123",
+      "email": "mdshihab573@gmail.com",
+      "phone": "01912347237",
+      "address": "73/A,east kazipara ,mirpur",
+      "city": "dhaka",
+      "status": "1",
+      "id": "4"
+    }],
+    "pets": [
+      {
+        "id": "105",
+        "ownerId": "1",
+        "petname": "Buddy.",
+        "species": "Dog",
+        "birthday": "2019-08-12",
+        "visits": [
+          {
+            "id": "1001",
+            "date": "2024-04-10",
+            "reason": "Annual checkup"
+          },
+          {
+            "id": "1002",
+            "date": "2024-02-15",
+            "reason": "Vaccination"
+          }
+        ]
+      },
+      {
+        "id": "106",
+        "ownerId": "1",
+        "petname": "Lassie",
+        "species": "Dog",
+        "birthday": "2024-04-01",
+        "visits": [
+          {
+            "id": "1001",
+            "date": "2024-04-10",
+            "reason": "General checkup"
+          },
+          {
+            "id": "1002",
+            "date": "2024-02-15",
+            "reason": "Vaccination"
+          }
+        ]
+      },
+      {
+        "id": "107",
+        "ownerId": "2",
+        "petname": "good  pet",
+        "species": "Rabbit",
+        "birthday": "2024-04-03",
+        "visits": [
+          {
+            "id": "1001",
+            "date": "2024-04-10",
+            "reason": "Annual checkup"
+          },
+          {
+            "id": "1002",
+            "date": "2024-02-15",
+            "reason": "Vaccination"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "ownerId": "3",
+        "petname": "Rover.",
+        "species": "Rabbit",
+        "birthday": "2024-04-03",
+        "visits": [
+          {
+            "id": "1001",
+            "date": "2024-04-10",
+            "reason": "Annual look"
+          },
+          {
+            "id": "1002",
+            "date": "2024-02-15",
+            "reason": "Vaccination"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "ownerId": "4",
+        "petname": "good  pet",
+        "species": "Rabbit",
+        "birthday": "2024-04-03",
+        "visits": [
+          {
+            "id": "1001",
+            "date": "2024-04-10",
+            "reason": " checkup"
+          },
+          {
+            "id": "1002",
+            "date": "2024-02-15",
+            "reason": "New Vaccination"
+          }
+        ]
+      }
+    ],
   "veterinarians" : [
     {
       "id": "1",
@@ -364,6 +368,6 @@
   "thumbnail": "rabbit_hutch_thumbnail.jpg",
   "images": "https://cdn-icons-png.flaticon.com/128/5228/5228465.png"
   }
-]
+  ]
 }
 
